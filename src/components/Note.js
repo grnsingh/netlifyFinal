@@ -98,9 +98,7 @@ const changeTextEditor = (note) => {
     </div>
       </div>
       <div className="navbar-end">
-        <div className="navbar-item "onClick={()=>saveImplementation(value,value1)}><a>{
-          
-          }</a></div>
+        <div className="navbar-item "onClick={()=>saveImplementation(value,value1)}><a>SAVE</a></div>
       <div className="navbar-item" onClick={()=>deleteNote(activeNote)}><a>DELETE</a></div>
       </div>
     </div>
